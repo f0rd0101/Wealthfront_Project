@@ -1,0 +1,59 @@
+/* HEADER */
+.header-section{
+    display: flex;
+}
+.nav-list{
+    display: flex;
+    gap:48px;
+    list-style: none;
+    margin-left: 254px;
+}
+.nav-elem{
+    font-family: Roboto;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+.nav-elem:hover{
+    color:#4840BB
+}
+.h-button-div{
+    display: flex;
+    align-items: center;
+    margin-left: 284px;
+}
+
+.login-button{
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-right: 5px;
+    padding-left: 5px;
+    border-radius: 6px;
+    border: 1px solid #4840BB;
+    color: #4840BB;
+    background-color: white;
+font-weight: 700;
+transition: background-color 0.3s ease, transform 0.3s ease;
+font-family: Roboto;
+}
+.start-button{
+    font-family: Roboto;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-right: 16px;
+    padding-left: 16px;
+    margin-left: 12px;
+    background-color:#4840BB ;
+    color:white;
+    border-radius: 6px;
+    border: 1px solid #4840BB;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    
+}
+.login-button:hover{
+    background-color:#4840BB ;
+    color:white;
+
+}
+.start-button:hover{
+  background-color: white;
+  color:#4840BB ;
+}
