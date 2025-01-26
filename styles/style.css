@@ -33,6 +33,7 @@
 font-weight: 700;
 transition: background-color 0.3s ease, transform 0.3s ease;
 font-family: Roboto;
+font-weight: 700;
 }
 .start-button{
     font-family: Roboto;
@@ -46,7 +47,7 @@ font-family: Roboto;
     border-radius: 6px;
     border: 1px solid #4840BB;
     transition: background-color 0.3s ease, transform 0.3s ease;
-    
+    font-weight: 700;
 }
 .login-button:hover{
     background-color:#4840BB ;
@@ -56,4 +57,57 @@ font-family: Roboto;
 .start-button:hover{
   background-color: white;
   color:#4840BB ;
+}
+
+
+/* HERO */
+.hero-section{
+    display: flex;
+    margin-top: 32px;
+}
+.hero-block{
+    margin-left: 64px;
+}
+
+.img-hero{
+    width: 745px;
+height: 559px;
+background: url('/img/hero-pic.jpg') lightgray 50% / cover no-repeat;
+
+}
+.hero-title{
+    color: #230B59;
+font-family: Roboto;
+font-size: 50px;
+font-style: normal;
+font-weight: 400;
+line-height: 56.97px; /* 113.94% */
+letter-spacing: 1.899px;
+}
+.hero-p{
+    color: #230B59;
+font-family: Roboto;
+font-size: 15px;
+font-style: normal;
+font-weight: 400;
+
+}
+.hero-button{
+    font-family: Roboto;
+    padding-top: 12px;
+    padding-bottom: 12px;
+    padding-right: 16px;
+    padding-left: 16px;
+    background-color:#4840BB ;
+    color:white;
+    border-radius: 6px;
+    border: 1px solid #4840BB;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    font-weight: 700;
+    
+}
+.hero-button:hover{
+    background-color: white;
+    color:#4840BB ;
+
 }
